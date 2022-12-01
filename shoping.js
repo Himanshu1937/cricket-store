@@ -1,7 +1,7 @@
 
 // used for searching params from html
 const urlSearchParams = new URLSearchParams(window.location.search);
-const params = Object.fromEntries(urlSearchParams1.entries());
+const params = Object.fromEntries(urlSearchParams.entries());
 
 // store params value in const
 const cName = params.c;

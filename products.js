@@ -534,7 +534,7 @@ const products = [
     
 ]
 
-var cart = JSON.parse(localStorage.getItem("cart"));
+var cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 console.log(cart);
 
